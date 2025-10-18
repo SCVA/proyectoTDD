@@ -53,4 +53,11 @@ public class CalculadoraTest {
         Integer resultado = calculadora.resta(4,1);
         assertEquals(esperado, resultado);
     }
+    
+    @Test
+    public void testMultiplicacion() {
+        Integer esperado = 4;
+        Integer resultado = calculadora.multiplicar(2,2);
+        assertEquals(esperado, resultado);
+    }
 }

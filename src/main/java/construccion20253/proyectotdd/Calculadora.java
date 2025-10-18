@@ -17,5 +17,9 @@ class Calculadora {
     Integer resta(int minuendo, int sustraendo) {
         return minuendo-sustraendo;
     }
+
+    Integer multiplicar(int i, int i0) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
